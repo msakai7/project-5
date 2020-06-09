@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon comments-server.js",
+    "start": "nodemon todo-server.js",
     "serve": "nodemon server.js"
   },
   "keywords": [],

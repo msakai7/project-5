@@ -60,7 +60,7 @@ let deleteToDo = () => {
   let content = $("#deleteOne").val();
   $.ajax({
     method: "POST",
-    url: "http://localhost:8888/deletecomment/" + content
+    url: "http://localhost:8888/deletetodo/" + content
   }).done(function(msg) {
     console.log("Comment deleted: " + msg);
   });

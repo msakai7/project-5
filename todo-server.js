@@ -93,7 +93,7 @@ app.post("/addtodo", (req, res) => {
   };
 
   db.collection(collName)
-    .insertOne(comment)
+    .insertOne(todo)
     .then(result => {
       console.log(`record inserted ${result}`);
       return res.status(201).send({
